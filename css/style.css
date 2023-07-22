@@ -90,9 +90,10 @@ body {
   color: #919292;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("..//svg/arrows.svg");
+  background-image: url("..//svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 15px center;
+  background-size: 10px;
 }
 
 .select:focus {
@@ -122,7 +123,7 @@ body {
   width: 20px;
   height: 20px;
 
-  background-image: url("..//svg/notachoice.svg");
+  background-image: url("..//svg/form-empty-circle.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 20px;
@@ -131,7 +132,7 @@ body {
 }
 
 .checkbox:checked ~ .radio-button::before {
-  background-image: url("..//svg/selection.svg");
+  background-image: url("..//svg/form-circle.svg");
 }
 
 .pitch {
